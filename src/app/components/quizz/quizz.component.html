@@ -1,0 +1,18 @@
+<div class="quizz__container">
+    <div class="quizz__logo">
+        <img src="assets/imgs/logo.png" alt="">
+        <h3>{{title}}</h3>
+    </div>
+    <div class="quizz__questions">
+        <h3>Questão selecionada</h3>
+    </div>
+    <div class="quizz__options">
+        <button class="btn-option">
+            optionname
+        </button>
+    </div>
+    <div *ngIf=finished class="quizz__results">
+        <h1> o seu resultado é:</h1>
+        <p>resposta selecionada</p>
+    </div>
+</div>
